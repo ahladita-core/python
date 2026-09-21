@@ -1,0 +1,12 @@
+def add_item(dictionary, key, value):
+    dictionary[key] = value
+my_dict = {}# Create a dictionary
+key = input("Enter key: ")# Take input from the user
+value = input("Enter value: ")
+add_item(my_dict, key, value)#function call
+print("Updated dictionary:", my_dict)
+
+OUTPUT:
+Enter key: 1
+Enter value: GUWAHATI
+Updated dictionary: {'1': 'GUWAHATI'}
