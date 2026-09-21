@@ -1,0 +1,11 @@
+def remove_last(lst):
+    if lst:
+        lst.pop()
+my_list=[10,20,30,40,50]
+print("original list is",my_list)
+remove_last(my_list)
+print("list after function call i.e. pop",my_list)
+
+#output
+original list is [10, 20, 30, 40, 50]
+list after function call i.e. pop [10, 20, 30, 40]
