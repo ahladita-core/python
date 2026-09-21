@@ -1,0 +1,12 @@
+def change_string(s):
+    return 'x' + s[1:]
+original = input("Enter a string: ")
+changed = change_string(original)
+print("Original:", original)
+print("Changed:", changed)
+
+
+#OUTPUT
+Enter a string: AHLADITA
+Original: AHLADITA
+Changed: xHLADITA
