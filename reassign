@@ -1,0 +1,7 @@
+def reassign_dict(d):
+    d = {}  
+    return d
+d = eval(input("Enter a dictionary: "))
+print("Original dictionary:", d)
+d = reassign_dict(d)
+print("After reassignment:", d)
