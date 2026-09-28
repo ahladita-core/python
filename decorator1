@@ -1,0 +1,19 @@
+def show_info(func):
+    def wrapper(num):
+        print("calling function\n")
+        result = func(num)
+        print(result)
+        print("\nfunction executed")
+        return result
+    return wrapper
+@show_info
+def square(num):
+    return num ** 2
+square(5)
+
+output:
+calling function
+
+25
+
+function executed
